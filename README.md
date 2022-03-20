@@ -32,10 +32,10 @@ python -m pip install --upgrade pip
 - Установить зависимости из файла requirements.txt:
 ```
 pip install -r requirements.txt
-cd yatube_api
 ```
 - Выполнить миграции и запустить проект:
 ```
+cd yatube_api
 python manage.py migrate
 python manage.py runserver
 ```
